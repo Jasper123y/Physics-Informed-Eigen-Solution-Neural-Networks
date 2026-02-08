@@ -364,7 +364,7 @@ def main(runner_config=None, training_type='physics'):
     print("Loading data...")
     
     # DEBUG FLAG: Set to None to load all data, or set a number to limit samples
-    MAX_SAMPLES = 100  # Change to None for full training
+    MAX_SAMPLES = None  # Change to None for full training
     
     if MAX_SAMPLES is not None:
         print(f"\n*** DEBUG MODE: Loading only {MAX_SAMPLES} samples ***\n")
@@ -427,3 +427,4 @@ def main(runner_config=None, training_type='physics'):
 
 if __name__ == "__main__":
     main()
+
