@@ -4,11 +4,19 @@
   <b>Eigen Mode Shape Prediction</b>
 </p>
 
+
 <p align="center">
   <img src="docs/images/sample1_physics.png" alt="Physics Model Results" width="45%">
-  &nbsp;&nbsp;|&nbsp;&nbsp;
+</p>
+
+<p align="center">
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+</p>
+
+<p align="center">
   <img src="docs/images/sample1_nonphysics.png" alt="Non-Physics Model Results" width="45%">
 </p>
+
 
 <p align="center">
   <em>Left: Physics-informed model predictions | Right: Non-physics model predictions</em><br>
