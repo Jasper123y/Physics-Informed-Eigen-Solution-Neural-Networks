@@ -117,7 +117,7 @@ All parameters are centralized in `config.py`:
 
 | Config Class | Parameters |
 |--------------|------------|
-| **DataConfig** | Data paths, input shape (64×64), number of modes (6) |
+| **DataConfig** | Data paths, input shape (128×128), number of modes (6) |
 | **ModelConfig** | Model paths, expected model count |
 | **TrainingConfig** | Epochs, batch size, learning rate |
 | **BenchmarkConfig** | Number of samples, output format |
