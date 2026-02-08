@@ -24,7 +24,7 @@ We introduce a framework for predicting mode shapes of mechanical structures usi
 To conduct similar studies, start by cloning this repository via:
 
 ```bash
-git clone https://github.com/yourusername/PINN_LEM_GPU.git
+git clone https://github.com/Jasper123y/Physics-Informed-Eigen-Solution-Neural-Networks.git
 ```
 
 Next, download or prepare the data and model checkpoints. Organize the files as shown below:
