@@ -27,7 +27,8 @@ To conduct similar studies, start by cloning this repository via:
 git clone https://github.com/Jasper123y/Physics-Informed-Eigen-Solution-Neural-Networks.git
 ```
 
-Next, download or prepare the data and model checkpoints. Organize the files as shown below:
+Next, download or prepare the data and pretained model checkpoints from https://doi.org/10.5281/zenodo.18524566
+Organize the files as shown below:
 
 ```
 .
