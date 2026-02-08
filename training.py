@@ -8,14 +8,6 @@ Supports two training modes:
 - Physics: Uses physics-informed loss (MSE + Helmholtz + Symmetry + K-deviation + Orthogonality)
 - Non-physics: Uses MSE loss only
 
-Usage:
-    Called from runner.py:
-        python runner.py --mode training --training-type physics
-        python runner.py --mode training --training-type nonphysics
-    
-    Or directly:
-        python training.py  # Defaults to physics training
-
 Author: Jiapeng XU
 Date: December 2025
 """
@@ -427,4 +419,5 @@ def main(runner_config=None, training_type='physics'):
 
 if __name__ == "__main__":
     main()
+
 
