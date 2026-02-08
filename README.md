@@ -6,6 +6,7 @@
 
 <p align="center">
   <img src="docs/images/sample1_physics.png" alt="Physics Model Results" width="45%">
+  &nbsp;&nbsp;|&nbsp;&nbsp;
   <img src="docs/images/sample1_nonphysics.png" alt="Non-Physics Model Results" width="45%">
 </p>
 
