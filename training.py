@@ -300,8 +300,8 @@ def main(runner_config=None, training_type='physics'):
         # Physics-informed loss schedule
         loss_schedule = {
             (0, 100): {'mse': 1.0, 'symmetric': 0, 'helmholtz': 0, 'k_dev': 0, 'orthogonality': 0},
-            (100, 200): {'mse': 0, 'symmetric': 1.0, 'helmholtz': 5e-3, 'k_dev': 2e-15, 'orthogonality': 3e-5},
-            (200, float('inf')): {'mse': 0, 'symmetric': 1.0, 'helmholtz': 0, 'k_dev': 0, 'orthogonality': 0},
+            (100, 400): {'mse': 0, 'symmetric': 1.0, 'helmholtz': 5e-3, 'k_dev': 2e-15, 'orthogonality': 3e-5},
+            (400, float('inf')): {'mse': 0, 'symmetric': 1.0, 'helmholtz': 0, 'k_dev': 0, 'orthogonality': 0},
         }
     else:
         # Non-physics loss schedule (MSE only)
@@ -333,13 +333,13 @@ def main(runner_config=None, training_type='physics'):
             output_activation='tanh',
         ),
         training=TrainingConfig(
-            epochs=230,
+            epochs=430,
             batch_size=32,
-            initial_lr=1e-5,
+            initial_lr=5e-5,
             lr_schedule={
                 (0, 200): 5e-5,
-                (200, 250): 1e-5,
-                (250, 1000): 1e-5,
+                (200, 400): 1e-5,
+                (400, 1000): 1e-5,
             },
             loss_schedule=loss_schedule,
         ),
@@ -419,5 +419,6 @@ def main(runner_config=None, training_type='physics'):
 
 if __name__ == "__main__":
     main()
+
 
 
