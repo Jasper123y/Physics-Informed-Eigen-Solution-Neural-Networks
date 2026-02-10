@@ -98,8 +98,8 @@ The framework supports two training modes:
 
 **Physics Training** uses a multi-stage loss schedule:
 - Epochs 0-100: MSE loss only (initial learning)
-- Epochs 100-200: Symmetry + Helmholtz + K-deviation + Orthogonality losses
-- Epochs 200+: Symmetry loss only (refinement)
+- Epochs 100-400: Symmetry + Helmholtz + K-deviation + Orthogonality losses
+- Epochs 400+: Symmetry loss only (refinement)
 
 **Non-Physics Training** uses MSE loss throughout all epochs.
 
